@@ -1,0 +1,38 @@
+Accessibility:
+- Alt text for images
+- Changing font size management
+- section vs div
+- Making consistency with which headers are used
+
+
+Aesthetics:
+- text highlight underline decoration
+- Replace white outlined text with images
+- favicon
+
+
+
+About page media queries for profiles:
+- At some screen widths, adam's and my cards have different heights and it's annoying
+- image track infinite scroll
+- profile card flip
+- replacing images in the image track
+
+
+- FIND A WAY TO TAKE EMAILS IN THE CONTACT US AREA
+- Accessing opportunities/join us only after logging in
+
+
+- update website to include an event database, keep that up to date
+
+- partnership: put every partnership's logos like in a row
+    - have it animate around
+
+- embed a table into our website of RESOURCES!!
+
+
+- animate the navbar loading in so that each item flies up with a delay like a wave
+
+- Home, About Us, Mentorship(dropdown to find a stembuddy, NEST), events, resources
+
+- events page: scrolling slider with upcoming events, then 5 most recent past events

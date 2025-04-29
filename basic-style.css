@@ -1,0 +1,440 @@
+/* || GENERAL STYLES */
+
+*{
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+
+h1, h2, h3, sub, ul, li, button{
+    font-family: "Francois One", sans-serif;
+}
+
+p, b{
+    font-family: "Poppins" sans-serif;
+}
+
+h1, h2, h3{
+    color: #00A0F0;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 3.75rem;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 1.875rem;
+}
+
+p, ul, li, sub{
+    font-size: 1.25rem;
+    font-weight: 400;
+
+    color: #104180;
+}
+
+b{
+    font-size: 1.0rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color:#00A0F0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+input{
+    background-color: rgb(235, 235, 235);
+    border: rgb(129, 129, 129);
+    border-radius: 10px;
+
+    height: 3rem;
+}
+
+/* || UTILITIES */
+
+.flex-break{
+    flex-basis: 100%;
+    height: 0;
+}
+
+.background{
+    z-index: -1;
+}
+
+/* || SITEWIDE */
+
+.content-block{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.text-block{
+    max-width: 70%;
+}
+
+.white-outline{
+    text-shadow: -3px -3px 0 white, 3px -3px 0 white, -3px 3px 0 white, 3px 3px 0 white,
+    -3px 0 0 white, 3px 0 0 white, 0 3px 0 white, 0 3px 0 white;
+}
+
+.shadow{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* || HEADER*/
+
+header {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 7vh;
+    width: 100%;
+
+    background-color: #00A0F0;
+
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#icon {
+    height: 100%;
+}
+
+#icon-link{
+    margin-right: auto;
+    margin-left: 1rem;
+
+    height: 50%;
+}
+
+#header-links{
+    width: 70rem;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row; /*this is default, just for clarity*/
+    justify-content: flex-end;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.header-element{
+    height: 100%;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.3rem;
+    
+    padding: 0 1rem;
+    
+    transition: 0.3s ease-out;
+
+    background-color: #00A0F0;
+}
+
+.header-element:hover{
+    background-color: rgb(240, 250, 255);
+    color: #00A0F0;
+
+    transition: 0.3s ease-out;
+}
+
+.dropdown{
+    overflow: hidden;
+    height: 100%;
+}
+
+.caret-down{
+    width: 0.75rem;
+    fill: white;
+    padding: 0.3rem;
+    transition: 0.3s ease-out;
+}
+
+.dropdown-trigger:hover .caret-down{
+    fill: #00A0F0;
+    transition: 0.3s ease-out;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+    transition: 0.3s ease-out;
+}
+
+.dropdown-content a{
+    display: block;
+    padding: 1rem;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#sidebar-button{
+    display: none;
+}
+
+#sidebar-icon{
+    display: none;
+}
+
+#sidebar-close{
+    display: none;
+}
+
+/* header media queries */
+@media (width < 63rem){
+    #header-links{
+        transform: translateX(20rem);
+        flex-direction: column;
+
+        align-content: flex-start;
+        align-items: flex-start;
+
+        justify-content: flex-start;
+
+        position: fixed;
+        top: 0;
+        right: 0;
+
+        z-index: 21;
+
+        width: 18.75rem;
+
+        background-color: #00A0F0;
+
+        box-shadow: -3px 0px 5px rgba(0, 0, 0, 0.3);
+
+        transition: 0.3s ease-out;
+    }
+
+    .header-element{
+        box-sizing: border-box;
+
+        height: auto;
+        width: 100%;
+
+        padding: 2rem 3rem;
+        margin: 0;
+
+        justify-content: flex-start;
+    }
+
+    .dropdown{
+        height: auto;
+        width: 100%;
+
+        overflow: visible;
+    }
+    
+    .dropdown-content{
+        position: static;
+        padding-left: 2rem;
+    }
+
+    #sidebar-icon{
+        display: block;
+
+        height: 50%;
+        width: 3.5vh;
+
+        margin-right: 1rem;
+    }
+
+    #sidebar-close{
+        display: block;
+
+        width: 4rem;
+
+        margin: 0;
+
+        padding: 2rem;
+        padding-bottom: 0;
+    }
+
+    #contact-us{
+        background: none;
+        box-shadow: none;
+        border-radius: 0;
+
+        width: 100%;
+        height: auto;
+
+        color: white;
+
+        padding: 2rem 3rem;
+
+        margin: 0;
+    }
+
+    #sidebar-button:checked ~ #header-links{
+        transform: translateX(0);
+
+        transition: 0.3s ease-out;
+    }
+
+    #sidebar-button:checked ~ #overlay{
+        width: 100%;
+        height: 100%;
+
+        position: fixed;
+
+        top: 0;
+        left: 0;
+
+        z-index: 10;
+    }
+
+    *{
+        font-size: 0.75rem;
+    }
+}   
+
+
+/* || FOOTER */
+
+footer {
+    display: flex;
+    z-index: 21;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
+    height: 20rem;
+    padding: 6rem;
+    padding-right: 20rem;
+
+    background-color: #00A0F0;
+
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer-spacer-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    height: 40vh;
+}
+
+footer h3, footer p, footer address{
+    color: white;
+}
+
+footer h3{
+    margin: 0;
+    font-weight: 400;
+}
+
+footer address{
+    text-decoration: underline;
+}
+
+#logo {
+    height: 14rem;
+}
+
+#copyright{
+
+    font-size: 0.75rem;
+    font-family: Poppins, sans-serif;
+
+    min-width: 10rem;
+
+    margin: 0;
+    margin-top: auto;
+}
+
+#footer-header{
+    margin-bottom: 0;
+}
+
+#footer-links{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    height: 100%;
+
+    margin-right: 3rem;
+    margin-bottom: 0rem;
+}
+
+.footer-element{
+    font-size: 1rem;
+
+    color: white;
+    margin-bottom: 0rem;
+}
+
+#footer-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+#footer-socials-logos{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.socials-logo{
+    width: 3rem;
+}
+
+/* footer media queries */
+
+@media (width < 73rem) {
+    .footer-element{
+        display: none;
+    }
+
+    #footer-links{
+        display: none;
+    }
+
+    #footer-header{
+        display: none;
+    }
+
+    footer{
+        padding-right: 10rem;
+    }
+}
+
+
+/*
+scroll-margin-top: 5em;
+*/

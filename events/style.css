@@ -1,0 +1,101 @@
+/* || GENERAL STYLES */
+
+h2{
+    font-size: 3.125rem;
+
+    color: #104180;
+}
+
+
+/* || TITLE HEADING */
+
+#top-heading{
+    margin-top: 0;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+
+    text-align: center;
+
+    width: 100%;
+
+    background-color: #8BDCDD;
+}
+
+/* || EVENTS */
+
+.event-container{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 5vw;
+
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.event-container img{
+    min-width: 20rem;
+    width: 20rem;
+    min-height: 20rem;
+    height: 20rem;
+
+    object-fit: cover;
+}
+
+.event-container p, .event-container h3, .event-container h2{
+    margin: 1rem 0;
+}
+
+.event-container button{
+    margin-top: 0;
+
+    background-color: #00A0F0;
+    color: white;
+
+    font-family: "Francois One", sans-serif;
+    font-size: 1.875rem;
+
+    border: none;
+    border-radius: 10px;
+
+    width: 20rem;
+    height: 4rem;
+}
+
+.events{
+    padding-bottom: 5rem;
+}
+
+.event-details a{
+    font-size: 1.25rem;
+}
+
+@media (width < 51.5625rem){
+    .event-container{
+        flex-direction: column;
+    }
+}
+
+/* || PAST EVENTS */
+
+#past-event-heading{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 7rem;
+
+    text-align: center;
+
+    width: 100%;
+
+    background-color: #8BDCDD;
+}
+
+#past-event-heading+.events{
+    background-color: #8BDCDD;
+}
+
+#past-event-heading+.events .event-container h3{
+    color:white;
+}

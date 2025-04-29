@@ -1,0 +1,58 @@
+----September 29, 2024----
+✓ Youtube and Slides Link
+✓ Prettied about page and donate page up a bit
+✓ Moved header and footer into scripts
+
+
+----August 29, 2024----
+Updated parts of header to look nicer
+
+Considering replacing outlined text with the images
+
+✓ header/footer links
+
+
+Make the website look good on mobile devices too
+✓ media queries for other parts of the website
+✓ about page border
+
+
+
+
+----August 28, 2024----
+
+Make the website look good on mobile devices too
+✓ header/footer media queries
+✓ clean up css (move all shared styles into one file)
+
+
+----February 15, 2025----
+✓ updated header and footer to remove certain elements
+✓ cleaned up footer
+
+----February 22, 2025----
+✓ added first fade in animation to home page
+✓ changed home page values and vision to impact and contact us
+✓ formatted the impact stats block
+
+----March 9, 2025----
+✓ realize i didn't put all my edits on here
+✓ editing homepage to have impact, highlight area, contact newsletter area
+
+----March 16, 2025----
+✓ finished designing contact newsletter area
+✓ removed contact us page and added to bottom of homepage
+✓ made layout more minimalist, refined
+
+----March 23, 2025----
+✓ updated header and footer
+✓ created mentorship page
+
+----April 16, 2025----
+✓ made home page text move along with the background to look nicer
+✓ Updated event images and descriptions on homepage
+✓ Updated research program highlight on homepage
+
+----April 25, 2025----
+✓ Updated big heading on homepage
+✓ Moved join discord to the landing screen
