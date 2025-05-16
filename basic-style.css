@@ -381,13 +381,10 @@ footer address{
 #footer-links{
     display: flex;
     flex-direction: column;
-
-    justify-content: space-between;
-
     height: 100%;
-
     margin-right: 3rem;
     margin-bottom: 0rem;
+    gap: 1rem;
 }
 
 .footer-element{
