@@ -44,7 +44,8 @@ p, ul, li, sub{
 }
 
 b{
-    font-size: 1.0rem;
+    font-size: 1.25rem;
+    color: #00A0F0;
 }
 
 a{

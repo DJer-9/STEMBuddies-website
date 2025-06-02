@@ -23,23 +23,43 @@ h2{
 
 /* || EVENTS */
 
+#research-symposium-heading{
+    font-size: 4rem;
+    
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#research-program-signup{
+    width: 21rem;
+    height: 8rem;
+    
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+
+    font-size: 2rem;
+
+    border-radius: 20px;
+}
+
 .event-container{
     display: flex;
 
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    text-align: left;
 
-    gap: 5vw;
+    gap: 3rem;
 
     padding-bottom: 5rem;
     padding-top: 5rem;
 }
 
 .event-container img{
-    min-width: 20rem;
-    width: 20rem;
-    min-height: 20rem;
-    height: 20rem;
+    min-width: 25rem;
+    width: 25rem;
+    min-height: 25rem;
+    height: 25rem;
 
     object-fit: cover;
 }
@@ -65,7 +85,13 @@ h2{
 }
 
 .events{
+    padding-top: 5rem;
     padding-bottom: 5rem;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    text-align: center;
 }
 
 .event-details a{
@@ -78,7 +104,7 @@ h2{
     }
 }
 
-/* || PAST EVENTS */
+/* || PAST EVENTS */ 
 
 #past-event-heading{
     margin-top: 0;
@@ -87,8 +113,6 @@ h2{
 
     text-align: center;
 
-    width: 100%;
-
     background-color: #8BDCDD;
 }
 
@@ -96,6 +120,69 @@ h2{
     background-color: #8BDCDD;
 }
 
-#past-event-heading+.events .event-container h3{
-    color:white;
+.swiper{
+    width: 100%;
+}
+
+.swiper-container{
+    box-sizing: border-box;
+
+    margin: 0 88px 35px;
+    padding: 20px 10px;
+
+    overflow-x: hidden;
+}
+
+.swiper-card{
+    box-sizing: border-box;
+
+    border-radius: 12px;
+    border: solid #104180;
+
+    height: auto;
+
+    user-select: none;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-card:active{
+    cursor: grabbing;
+}
+
+.swiper-card img{
+    width: 100%;
+    aspect-ratio: 1/1;
+
+    border-radius: 9px 9px 0 0;
+
+    margin: 0;
+
+    object-fit: cover;
+}
+
+.card-text{
+    background-color: #00A0F0;
+
+    border-radius: 0 0 9px 9px;
+
+    flex-grow: 1;
+
+    padding: 1rem 2rem;
+    margin: 0;
+}
+
+.card-text h3{
+    color: white;
+
+    font-weight: 400;
+
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text p{
+    margin-top: 1.5rem;
+    color: white;
 }
