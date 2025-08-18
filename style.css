@@ -1,9 +1,5 @@
 /* || BACKGROUND IMAGE */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body{
     background: url("./images/homepage/test-bg1.png") no-repeat center top;
     background-size: 100%;
