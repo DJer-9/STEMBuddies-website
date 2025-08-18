@@ -82,7 +82,7 @@ input{
 
 
 /* || ANIMATIONS */
-.hidden{
+.hidden-animation{
     opacity: 0;
     filter: blur(3px);
     transform: translateY(1rem);
@@ -97,7 +97,7 @@ input{
 }
 
 @media(prefers-reduced-motion){
-    .hidden{
+    .hidden-animation{
         transition: none;
     }
 }
