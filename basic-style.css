@@ -80,29 +80,6 @@ input{
     z-index: -1;
 }
 
-
-/* || ANIMATIONS */
-.hidden{
-    opacity: 0;
-    filter: blur(3px);
-    transform: translateY(1rem);
-
-    transition: all 1s ease-in-out;
-}
-
-.show{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateY(0);
-}
-
-@media(prefers-reduced-motion){
-    .hidden{
-        transition: none;
-    }
-}
-
-
 /* || SITEWIDE */
 
 .content-block{
