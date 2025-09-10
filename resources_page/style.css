@@ -1,0 +1,131 @@
+/* || GENERAL STYLES */
+
+h1{
+    text-align: center;
+
+    color: #104180;
+}
+
+
+/* || RESOURCES SECTION */
+
+.resources{
+    padding-top: 0rem;
+    padding-bottom: 5rem;
+
+    text-align: center;
+
+    position: relative;
+}
+
+.icon_bar{
+    display: flex;
+    justify-content: center;
+    gap: min(3vw, 3vh);
+
+    overflow-x: hidden;
+
+    margin-top: 3rem;
+
+    height: min(6vw, 6vh);
+}
+
+/* High school handbook button styles */
+#handbook{
+    font-size: 2rem;
+
+    width: 70%;
+    margin: 5rem;
+
+    border-radius: 2rem; /*just need rounded corners*/
+
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* styles for each resource box */
+
+.resource-container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    align-items: stretch;
+    text-align: left;
+
+    border: solid #104180 4px;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.resource-container h2{
+    background-color: #00A0F0;
+    color: white;
+
+    margin: 0;
+    border-radius: 6px 6px 0 0;
+    
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.resource-details{
+    display: flex;
+}
+
+.resource-details p{
+    background-color: #8BDCDD;
+
+    margin: 0;
+    border-radius: 0 0 0 6px;
+    padding: 2rem 3rem;
+
+    flex-grow: 1;
+}
+
+.resource-link{
+    background-color: #8BDCDD;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    justify-content: space-between;
+    align-items: flex-end;
+
+    border-radius: 0 0 6px 0;
+    padding: 2rem;
+    padding-right: 3rem;
+}
+
+.resource-link h3{
+    color: #104180;
+
+    margin: 0;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+
+    text-align: right;
+}
+
+.resource-link button{
+    background-color: #FFE677;
+    color: #104180;
+
+    border-radius: 10px;
+    border: solid 4px #104180;
+
+    font-size: 1.5rem;
+
+    padding: 0 2rem;
+}
+
+@media (width < 51.5625rem){
+    .resource-details{
+        flex-direction: column;
+    }
+}
