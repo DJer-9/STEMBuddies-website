@@ -12,7 +12,8 @@ footer.innerHTML = `
             <a class="footer-element" target="_self" href="/about">About Us</a>
             <a class="footer-element" target="_self" href="/mentorship">Mentorship</a>
             <a class="footer-element" target="_self" href="/events">Events</a>
-            <!--<a class="footer-element" target="_self" href="/resources">Resources</a>-->
+            <!--<a class="footer-element" target="_self" href="/research">Research</a>-->
+            <a class="footer-element" target="_self" href="/resources_page">Resources</a>
         </nav>
     </div>
 
@@ -22,6 +23,7 @@ footer.innerHTML = `
             <a href="mailto:general@stembuddies.ca"><address>general@stembuddies.ca</address></a>
             <div id="footer-socials-logos">
                 <a href="https://www.instagram.com/stembuddies_canada/" target="_blank"><img src="/images/homepage/instagram-logo.png" class="socials-logo"></a>
+                <a href="https://www.tiktok.com/@stembuddies.canada" target="_blank"><img src="/images/homepage/tiktok-logo.png" class="socials-logo"></a>
                 <a href="https://linktr.ee/stembuddies_" target="_blank"><img src="/images/homepage/linktree-logo.png" class="socials-logo"></a>
             </div>
         </div>

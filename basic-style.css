@@ -381,6 +381,7 @@ footer h3{
 
 footer address{
     text-decoration: underline;
+    font-style: normal;
 }
 
 #logo {

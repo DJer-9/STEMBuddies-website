@@ -24,7 +24,8 @@ header.innerHTML = `
         </div>
 
         <a class="header-element" target="_self" href="/events">Events</a>
-        <!--<a class="header-element" target="_self" href="/resources">Resources</a>-->
+        <!--<a class="header-element" target="_self" href="/research">Research</a>-->
+        <a class="header-element" target="_self" href="/resources_page">Resources</a>
     </nav>
 `;
 
