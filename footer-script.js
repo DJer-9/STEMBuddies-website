@@ -12,7 +12,7 @@ footer.innerHTML = `
             <a class="footer-element" target="_self" href="/about">About Us</a>
             <a class="footer-element" target="_self" href="/mentorship">Mentorship</a>
             <a class="footer-element" target="_self" href="/events">Events</a>
-            <!--<a class="footer-element" target="_self" href="/research">Research</a>-->
+            <a class="footer-element" target="_self" href="/research">Research</a>
             <a class="footer-element" target="_self" href="/resources_page">Resources</a>
         </nav>
     </div>
